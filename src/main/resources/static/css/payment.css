@@ -1,0 +1,20 @@
+div{
+	height:700px;
+	width:600px;
+	margin:auto;
+	border-radius: 5px;
+	background-color:#fffafa;
+	border:none;
+	padding: 3%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-sizing: border-box;
+}
+li{
+	list-style-type: none;
+}
+button{
+	width:100px;
+	height: 40px;
+	background-color: whitesmoke;
+	border-radius: 5px;
+}

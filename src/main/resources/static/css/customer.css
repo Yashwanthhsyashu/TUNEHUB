@@ -1,0 +1,35 @@
+.non-premium{
+	margin:400px;
+	height:300px;
+	width:300px;
+	margin:auto;
+	border: 2px solid black;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #6E6E6E;
+	border:none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.inner{
+	padding-top:80px;
+	margin:auto;
+}
+button{
+	background-color: #BCFD4C;
+	width: 50%;
+	border-radius: 4px;
+	height:40px;
+	color:black;
+	border:none;
+}
+h1{
+	text-align: center;
+}
+button:hover{
+		box-shadow: 3px 3px 3px black;
+		width:52%;
+		height:42px;
+}
+body{
+	background-color: #F7F7F7;
+}

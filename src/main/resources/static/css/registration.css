@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+div{
+	width:500px;
+	margin:auto;
+	background-color: #ffffff;
+  border:none;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+form{
+	padding: 60px;
+}
+input[type=text],input[type=email],input[type=password],textarea, input[type=submit]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border:none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+body{
+	background-image: url('Jaipur.jpg');
+}
+h1{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 0;
+	position:relative;
+}
+input[type=submit]{
+	background-color: green;
+}
+input[type=submit]:hover{
+	background-color: olivedrab;
+}
+input[type=text]:hover,input[type=email]:hover,input[type=password]:hover,textarea:hover{
+	background-color: white;
+	border:none;	
+}
+input[type=radio]{
+	margin:10px;
+}
